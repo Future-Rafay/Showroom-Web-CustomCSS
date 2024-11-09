@@ -1,0 +1,33 @@
+/* CallToAction.module.css */
+.ctaSection {
+    background-color: #58e6d9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .ctaTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .ctaDescription {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .ctaButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #2ba1a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #58e6d9;
+  }
+  

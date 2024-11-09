@@ -1,0 +1,56 @@
+/* src/styles/CarCard.module.css */
+.card {
+    background-color: #fff;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight hover effect */
+  }
+  
+  .carImage {
+    object-fit: cover;
+  
+  }
+  .cardContent {
+    padding: 6px;
+  }
+  
+  .carName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 1.125rem;
+    color: #58E6D9;
+    margin: 4px 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #666;
+    margin: 8px 0;
+  }
+  
+  .learnMoreButton {
+    text-decoration: none;
+    color: #58E6D9;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .learnMoreButton:hover {
+    background-color: #333;
+  }
+  

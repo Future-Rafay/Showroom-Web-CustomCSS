@@ -1,0 +1,41 @@
+.heroBanner {
+    background-image: url('/images/hero/HeroBooking.jpg'); /* Replace with your image in the public/images folder */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .heroContent {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heroTitle {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .heroDescription {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .ctaButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #58e6d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #2ba1a1;
+  }
+  

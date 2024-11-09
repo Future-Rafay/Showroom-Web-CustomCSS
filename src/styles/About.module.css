@@ -1,0 +1,19 @@
+/* About.module.css */
+.aboutSection {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  

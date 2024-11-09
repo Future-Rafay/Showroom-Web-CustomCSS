@@ -1,0 +1,157 @@
+/* Booking.module.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bookingInfo {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .bookingInfo h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .bookingInfo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .bookingSteps {
+    list-style-type: decimal;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px;
+  }
+  
+  .bookingSteps li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .bookingForm {
+    background-color: #B63E96;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .bookingForm h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .hero {
+    position: relative;
+    background-image: url('/images/hero/HeroSUV.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .heroButton {
+    background-color: #58E6D9;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heroButton:hover {
+    background-color: #B63E96;
+  }
+
+  .testimonials {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .testimonial span {
+    font-size: 16px;
+    color: #58E6D9;
+    margin-top: 10px;
+    display: block;
+  }
+    
+  
+  .form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    text-align: left;
+  }
+  
+  .formGroup label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submitButton {
+    background-color: #58E6D9;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #B63E96;
+  }
+  
