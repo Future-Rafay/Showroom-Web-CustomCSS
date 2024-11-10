@@ -7,7 +7,7 @@ const Testimonials = () => {
       <h2 className={styles.sectionTitle}>What Our Customers Are Saying</h2>
       <div className={styles.testimonialCard}>
         <p className={styles.testimonialText}>
-          "The best car-buying experience! The team was so helpful, and I love my new Toyota!"
+        &#39;The best car-buying experience&#34; The team was so helpful, and I love my new Toyota&#34;&#39;
         </p>
         <p className={styles.customerName}>- Sarah L.</p>
       </div>

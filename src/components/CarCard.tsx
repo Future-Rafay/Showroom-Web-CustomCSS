@@ -1,33 +1,6 @@
-// import Link from 'next/link';
-// import styles from '../styles/CarCard.module.css';
-// import Image from 'next/image';
-
-// type CarCardProps = {
-//   name: string;
-//   price: string;
-//   description: string;
-//   imageUrl: string;
-//   categoryLink: string;
-// };
-
-// const CarCard = ({ name, price, description, imageUrl, categoryLink }: CarCardProps) => {
-//   return (
-//     <div className={styles.card}>
-//       <Image src={`/images/${imageUrl}`} alt={name} width={400} height={250} className={styles.carImage} />
-//       <div className={styles.cardContent}>
-//         <h3 className={styles.carName}>{name}</h3>
-//         <p className={styles.price}>{price}</p>
-//         <p className={styles.description}>{description}</p>
-//         <Link href={categoryLink} className={styles.learnMoreButton}>Learn More</Link>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CarCard;
 
 import Image from 'next/image';
-import styles from '../styles/CarCard.module.css';
+// import styles from '../styles/CarCard.module.css';
 import Link from 'next/link';
 
 interface CarCardProps {

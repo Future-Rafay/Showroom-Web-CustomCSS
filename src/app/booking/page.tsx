@@ -16,7 +16,7 @@ const Booking = () => {
           <li>Confirm your booking and submit.</li>
         </ol>
         <p>
-          Once you've completed the form, our team will get in touch with you to
+          Once you&#39;ve completed the form, our team will get in touch with you to
           confirm your order and provide further instructions.
         </p>
       </section>
@@ -36,15 +36,15 @@ const Booking = () => {
         <h3>What Our Customers Say</h3>
         <div className={styles.testimonial}>
           <p>
-            "Booking my Toyota Camry was a breeze! The staff was incredibly
-            helpful, and the car is amazing."
+          &#34;Booking my Toyota Camry was a breeze! The staff was incredibly
+            helpful, and the car is amazing.&#34;
           </p>
           <span>- John Doe</span>
         </div>
         <div className={styles.testimonial}>
           <p>
-            "The booking process was easy, and I’m very happy with my Toyota
-            Rav4. Highly recommend!"
+          &#34;The booking process was easy, and I’m very happy with my Toyota
+            Rav4. Highly recommend!&#34;
           </p>
           <span>- Jane Smith</span>
         </div>

@@ -1,7 +1,6 @@
 import SedanHeroBanner from "@/components/HeroSedan";
 import CarCard from "../../components/CarCard"; // Adjust the path to CarCard if necessary
 import styles from "./page.module.css"; // Adjust the path for styles
-import Head from "next/head";
 
 const SedanPage = () => {
   const cars = [

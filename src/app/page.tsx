@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './page.module.css'
+// import styles from './page.module.css'
 import HeroBanner from '@/components/HeroHome'
 import FeaturedCategories from '@/components/FeaturedCategories'
 import About from '@/components/About'
