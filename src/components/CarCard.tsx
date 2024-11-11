@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/CarCard.module.css';
+import Image from 'next/image';
 
 interface CarCardProps {
   name: string;
@@ -11,7 +12,7 @@ interface CarCardProps {
 const CarCard: React.FC<CarCardProps> = ({ description, name, image, price }) => {
   return (
     <div className={styles.card}>
-      <img src={image} alt={name} className={styles.image} />
+      <Image src={image} alt={name} className={styles.image} />
       <div className={styles.info}>
         <h3 className={styles.name}>{name}</h3>
         <h3 className={styles.description}>{description}</h3>

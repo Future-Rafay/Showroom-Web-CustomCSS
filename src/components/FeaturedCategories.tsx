@@ -1,6 +1,7 @@
 // FeaturedCategories.tsx
 import Link from 'next/link';
 import styles from '../styles/FeaturedCategories.module.css';
+import Image from 'next/image';
 
 const FeaturedCategories = () => {
   return (
@@ -9,13 +10,13 @@ const FeaturedCategories = () => {
       <div className={styles.categoriesGrid}>
         <div className={styles.categoryCard}>
           <Link href="/sedan">
-            <img src="/images/sedan/Camry.png" alt="Sedan" className={styles.categoryImage} />
+            <Image src="/images/sedan/Camry.png" alt="Sedan" className={styles.categoryImage} />
             <h3>Sedan Cars</h3>
           </Link>
         </div>
         <div className={styles.categoryCard}>
           <Link href="/suv">
-            <img src="/images/suv/highlander.png" alt="SUV" className={styles.categoryImage} />
+            <Image src="/images/suv/highlander.png" alt="SUV" className={styles.categoryImage} />
             <h3>SUV Cars</h3>
           </Link>
         </div>
