@@ -10,13 +10,13 @@ const FeaturedCategories = () => {
       <div className={styles.categoriesGrid}>
         <div className={styles.categoryCard}>
           <Link href="/sedan">
-            <Image src="/images/sedan/Camry.png" alt="Sedan" className={styles.categoryImage} />
+            <Image src="/images/sedan/Camry.png" alt="Sedan" width={300} height={220} className={styles.categoryImage} />
             <h3>Sedan Cars</h3>
           </Link>
         </div>
         <div className={styles.categoryCard}>
           <Link href="/suv">
-            <Image src="/images/suv/highlander.png" alt="SUV" className={styles.categoryImage} />
+            <Image src="/images/suv/highlander.png" alt="SUV" width={300} height={220} className={styles.categoryImage} />
             <h3>SUV Cars</h3>
           </Link>
         </div>

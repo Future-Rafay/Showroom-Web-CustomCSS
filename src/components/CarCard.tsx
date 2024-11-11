@@ -12,7 +12,7 @@ interface CarCardProps {
 const CarCard: React.FC<CarCardProps> = ({ description, name, image, price }) => {
   return (
     <div className={styles.card}>
-      <Image src={image} alt={name} className={styles.image} />
+      <Image src={image} alt={name} width={300} height={220} className={styles.image} />
       <div className={styles.info}>
         <h3 className={styles.name}>{name}</h3>
         <h3 className={styles.description}>{description}</h3>

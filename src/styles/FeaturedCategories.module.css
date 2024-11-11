@@ -1,14 +1,12 @@
-/* FeaturedCategories.module.css */
 .categoriesSection {
   padding: 60px;
-  background-color: #F4F4F4; /* Slightly lighter background for contrast */
+  background-color: #F4F4F4; 
   font-family: Helvetica;
 }
-
 .sectionTitle {
   font-size: 40px;
   text-align: center;
-  color: #2B2B2B; /* Dark charcoal color for a bold title */
+  color: #2B2B2B;
   margin-bottom: 40px;
 }
 
