@@ -6,33 +6,69 @@ const SedanPage = () => {
   const cars = [
     {
       name: "Toyota Camry",
-      description: "A comfortable and reliable sedan with modern features.",
+      description: "A luxury sedan known for its comfort and reliability.",
       price: "$35,000",
-      image: "/images/sedan/camry.png",
-      carLink: "/sedan/camry",
+      image: "/images/sedan/camry2.png",
     },
     {
       name: "Toyota Prius",
       description:
-        "A spacious sedan with great fuel economy and safety features.",
+        "A hybrid sedan offering great fuel efficiency and modern design.",
       price: "$30,000",
-      image: "/images/sedan/prius.jpg",
-      carLink: "/sedan/accord",
+      image: "/images/sedan/prius2.jpg",
     },
     {
-      name: "Toyota corolla",
+      name: "Toyota Corolla",
       description:
-        "A stylish sedan with a premium feel and advanced technology.",
+        "A stylish, compact sedan with premium features and technology.",
       price: "$28,000",
+      image: "/images/sedan/corolla3.jpg",
+    },
+    {
+      name: "Toyota Camry",
+      description:
+        "Elegant and spacious, perfect for both city and highway driving.",
+      price: "$36,500",
+      image: "/images/sedan/camry.png",
+    },
+    {
+      name: "Toyota Prius",
+      description:
+        "Environmentally friendly and spacious with cutting-edge safety.",
+      price: "$29,500",
+      image: "/images/sedan/prius3.jpg",
+    },
+    {
+      name: "Toyota Corolla",
+      description:
+        "An agile sedan that combines fuel efficiency with a smooth ride.",
+      price: "$27,500",
+      image: "/images/sedan/corolla2.png",
+    },
+    {
+      name: "Toyota Crown",
+      description:
+        "A flagship luxury sedan blending advanced technology and style.",
+      price: "$45,000",
+      image: "/images/sedan/crown.jpg",
+    },
+    {
+      name: "Toyota Prius",
+      description: "Compact yet spacious, designed for eco-conscious drivers.",
+      price: "$31,000",
+      image: "/images/sedan/prius.jpg",
+    },
+    {
+      name: "Toyota Corolla",
+      description: "An affordable and durable sedan with refined features.",
+      price: "$28,500",
       image: "/images/sedan/corolla.png",
-      carLink: "/sedan/altima",
     },
   ];
 
   return (
     <div className={styles.sedanPage}>
       <SedanHeroBanner />
-      <h1 className={styles.carCategoryTitle}>Sedan Cars</h1>
 
       <div className={styles.carGrid}>
         {cars.map((car, index) => (
@@ -42,14 +78,8 @@ const SedanPage = () => {
             description={car.description}
             price={car.price}
             image={car.image}
-            carLink={car.carLink}
           />
         ))}
-      </div>
-      <div className={styles.ctaSection}>
-        <h2>Ready to Take a Test Drive?</h2>
-        <p>Contact us to book a test drive for any of our Toyota sedans today!</p>
-        <button className={styles.ctaButton}>Contact Us</button>
       </div>
     </div>
   );

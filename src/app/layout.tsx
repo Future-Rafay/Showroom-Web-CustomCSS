@@ -1,6 +1,7 @@
+import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Head from "next/head"; // Import Head for SEO or metadata needs
+import Head from "next/head"; 
 
 export const metadata = {
   title: "Toyota | Future-Rafay",
@@ -22,6 +23,7 @@ export default function RootLayout({
         <div>
           <Header />
           {children}
+          <CallToAction />
           <Footer />
         </div>
       </body>

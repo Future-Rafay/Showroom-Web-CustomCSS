@@ -13,8 +13,6 @@ const page = () => {
     <FeaturedCategories />
     <About />
     <Testimonials />
-    <CallToAction />
-      
     </>
   )
 }

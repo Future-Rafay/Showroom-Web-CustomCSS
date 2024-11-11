@@ -1,8 +1,9 @@
 /* CallToAction.module.css */
 .ctaSection {
-    background-color: #58e6d9;
+    background-color: #2B2B2B;
     padding: 50px;
     text-align: center;
+    font-family: Helvetica;
   }
   
   .ctaTitle {
@@ -20,7 +21,7 @@
   .ctaButton {
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #2ba1a1;
+    background-color: #EB0A1E;
     color: white;
     border: none;
     cursor: pointer;
@@ -28,6 +29,6 @@
   }
   
   .ctaButton:hover {
-    background-color: #58e6d9;
+    background-color: #2B2B2B;
   }
   

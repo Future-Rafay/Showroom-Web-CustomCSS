@@ -1,3 +1,4 @@
+import Testimonials from "@/components/Testimonials";
 import styles from "./page.module.css"; // Importing CSS module for this page
 import BookingHeroBanner from "@/components/HeroBooking";
 
@@ -5,7 +6,7 @@ const Booking = () => {
   return (
     <div className={styles.container}>
       <BookingHeroBanner />
-      {/* Booking Information Section */}
+      <Testimonials />
       <section className={styles.bookingInfo}>
         <h2>How to Book Your Toyota</h2>
         <p>Follow these easy steps to book your dream car:</p>
@@ -16,41 +17,20 @@ const Booking = () => {
           <li>Confirm your booking and submit.</li>
         </ol>
         <p>
-          Once you&#39;ve completed the form, our team will get in touch with you to
-          confirm your order and provide further instructions.
+          Once you&#39;ve completed the form, our team will get in touch with
+          you to confirm your order and provide further instructions.
         </p>
       </section>
+
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1>Drive Your Dream Toyota</h1>
           <p>
             Book your favorite Toyota model today and experience excellence.
           </p>
-          <a href="#bookingForm" className={styles.heroButton}>
-            Book Now
-          </a>
-        </div>
-      </section>
-    
-      <section className={styles.testimonials}>
-        <h3>What Our Customers Say</h3>
-        <div className={styles.testimonial}>
-          <p>
-          &#34;Booking my Toyota Camry was a breeze! The staff was incredibly
-            helpful, and the car is amazing.&#34;
-          </p>
-          <span>- John Doe</span>
-        </div>
-        <div className={styles.testimonial}>
-          <p>
-          &#34;The booking process was easy, and I’m very happy with my Toyota
-            Rav4. Highly recommend!&#34;
-          </p>
-          <span>- Jane Smith</span>
         </div>
       </section>
 
-      {/* Booking Form Section */}
       <section className={styles.bookingForm}>
         <h2>Book Your Toyota Now</h2>
         <form className={styles.form}>
@@ -88,12 +68,22 @@ const Booking = () => {
           </div>
 
           <div className={styles.formGroup}>
-            <label htmlFor="carModel">Select Car Model:</label>
+            <label htmlFor="carModel">Select Car Category:</label>
             <select id="carModel" name="carModel">
-              <option value="camry">Toyota Camry</option>
-              <option value="rav4">Toyota Rav4</option>
-              <option value="corolla">Toyota Corolla</option>
+              <option value="sedan">Sedan</option>
+              <option value="SUV">SUV</option>
             </select>
+          </div>
+
+          <div className={styles.formGroup}>
+            <label htmlFor="model">Enter Car Model:</label>
+            <input
+              type="text"
+              id="model"
+              name="model"
+              placeholder="Enter Car Name or Model"
+              required
+            />
           </div>
 
           <div className={styles.formGroup}>

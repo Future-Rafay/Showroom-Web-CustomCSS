@@ -2,7 +2,7 @@
     background-image: url('/images/hero/HeroHome.jpg'); /* Replace with your image in the public/images folder */
     background-size: cover;
     background-position: center;
-    height: 60vh; /* Adjust the height as needed */
+    height: 90vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,7 @@
   .heroContent {
     text-align: center;
     padding: 20px;
+    font-family: Helvetica;
   }
   
   .heroTitle {
@@ -28,14 +29,15 @@
   .ctaButton {
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #58e6d9;
+    background-color: #EB0A1E;
     color: white;
-    border: none;
+    border: none; 
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .ctaButton:hover {
-    background-color: #2ba1a1;
+    background-color: #2B2B2B;
+
   }
   
