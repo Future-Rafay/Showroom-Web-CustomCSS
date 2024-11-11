@@ -42,7 +42,7 @@ const SUVPage = () => {
       description:
         "A premium SUV with superior off-road capability and luxury features.",
       price: "$85,000",
-      image: "/images/suv/LandCruiser.png",
+      image: "/images/suv/landCruiser.png",
     },
     {
       name: "Toyota Innova",
