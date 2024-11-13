@@ -5,8 +5,8 @@
     height: 60vh;
   }
   
-
   .heroTitle {
+    margin-top: 100px;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -20,3 +20,51 @@
     color:#2B2B2B;
     font-family: Helvetica;
   }
+
+@media (max-width: 1024px) {
+  .heroBanner {
+    height: 70vh;
+  }
+
+  .heroTitle {
+    font-size: 42px; /* Slightly smaller title */
+  }
+
+  .heroDescription {
+    font-size: 18px; /* Smaller description text */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .heroBanner {
+  display: none;
+  }
+
+  .heroTitle {
+    font-size: 36px; 
+  }
+
+  .heroDescription {
+    font-size: 16px; 
+    margin-bottom: 30px; 
+  }
+}
+
+/* For extra-small devices */
+@media (max-width: 480px) {
+  .heroBanner {
+    display: block;
+    height: 60vh; /* Reduce height even more */
+    padding: 0 15px; /* Padding for mobile screens */
+  }
+
+  .heroTitle {
+    font-size: 28px; /* Even smaller font for small screens */
+  }
+
+  .heroDescription {
+    font-size: 14px; /* Further reduce font size */
+    margin-bottom: 20px; /* Reduce margin for extra-small screens */
+  }
+}

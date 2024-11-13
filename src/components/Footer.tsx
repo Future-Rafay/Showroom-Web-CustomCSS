@@ -8,9 +8,11 @@ const Footer = () => {
         <Link href="/privacy-policy" className={styles.footerLink}>
           Privacy Policy
         </Link>
+        <p>|</p>
         <Link href="/terms-of-service" className={styles.footerLink}>
           Terms of Service
         </Link>
+        <p>|</p>
         <Link href="/contact" className={styles.footerLink}>
           Contact
         </Link>

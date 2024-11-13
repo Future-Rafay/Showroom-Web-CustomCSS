@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   font-size: 36px;
-  height: 100px;
+  height: 130px;
   width: 100%;
   text-align: center;
   background-color: #eb0a1e;
@@ -19,6 +19,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
   font-family: Helvetica;
 }
 
@@ -48,4 +49,48 @@
   font-size: 20px;
   font-weight: bold;
   color: #eb0a1e; 
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .Title {
+    font-size: 26px;
+    height: 120px;
+  }
+
+  .testimonialsSection {
+    padding: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .testimonialCard {
+    padding: 20px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .Title {
+    font-size: 22px;
+    height: 100px;
+    padding:  40px 10px;
+  }
+
+  .testimonialsSection {
+    padding: 20px;
+  }
+
+  .testimonialCard {
+    padding: 15px;
+  }
+
+  .testimonialText {
+    font-size: 14px;
+  }
+
+  .customerName {
+    font-size: 16px;
+  }
 }

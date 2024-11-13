@@ -1,22 +1,81 @@
+/* HeroBanner.module.css */
 .heroBanner {
-    background-image: url('/images/hero/HeroSedan.jpg'); /* Replace with your image in the public/images folder */
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
+  background-image: url('/images/hero/HeroSedan.jpg'); /* Replace with your image in the public/images folder */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0 20px; /* Added some padding for smaller devices */
+}
+
+.heroTitle {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2B2B2B;
+  font-family: Helvetica;
+}
+
+.heroDescription {
+  font-size: 20px;
+  margin-bottom: 60px;
+  color: #2B2B2B;
+  font-family: Helvetica;
+}
+
+/* Media Queries */
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .heroBanner {
+    height: 70vh;
   }
-  
+
   .heroTitle {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;  
-    color:#2B2B2B;
-    font-family: Helvetica;
+    font-size: 42px; /* Slightly smaller title */
   }
-  
+
   .heroDescription {
-    font-size: 20px;
-    margin-bottom: 60px;
-    color:#2B2B2B;
-    font-family: Helvetica;
+    font-size: 18px; /* Smaller description text */
   }
-  
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .heroBanner {
+  display: none;
+  }
+
+  .heroTitle {
+    margin-top: 100px;
+    font-size: 36px; 
+  }
+
+  .heroDescription {
+    font-size: 16px; 
+    margin-bottom: 30px; 
+  }
+}
+
+/* For extra-small devices */
+@media (max-width: 480px) {
+  .heroBanner {
+    display: block;
+    height: 60vh; /* Reduce height even more */
+    padding: 0 15px; /* Padding for mobile screens */
+  }
+
+  .heroTitle {
+    margin-top: 0px;
+    font-size: 28px; /* Even smaller font for small screens */
+  }
+
+  .heroDescription {
+    font-size: 14px; /* Further reduce font size */
+    margin-bottom: 20px; /* Reduce margin for extra-small screens */
+  }
+}

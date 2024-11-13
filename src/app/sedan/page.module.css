@@ -2,7 +2,9 @@
   text-align: center;
   font-family: Helvetica;
   padding: 0px 100px;
+  box-sizing: border-box;
 }
+
 .carGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -11,13 +13,36 @@
   margin-top: 120px;
   margin-bottom: 120px;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
+
   .carGrid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 30px; /* Reduced gap */
+    margin-top: 80px; /* Adjusted top margin */
+    margin-bottom: 80px;
   }
 }
-@media (max-width: 480px) {
+
+@media (max-width: 768px) {
+  /* For tablets */
   .carGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 2 columns */
+    gap: 20px; /* Smaller gap */
+    margin-top: 60px; /* Adjusted top margin */
+    margin-bottom: 60px; /* Adjusted bottom margin */
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile devices */
+  .sedanPage {
+    padding: 0 20px; /* Reduced padding for smaller screens */
+  }
+  .carGrid {
+    grid-template-columns: 1fr; /* 1 column */
+    gap: 20px; /* Smaller gap */
+    margin-top: 40px; /* Adjusted top margin */ 
+    margin-bottom: 40px; /* Adjusted bottom margin */
   }
 }

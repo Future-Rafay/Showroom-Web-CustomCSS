@@ -1,34 +1,97 @@
-/* CallToAction.module.css */
 .ctaSection {
-    background-color: #2B2B2B;
-    padding: 50px;
-    text-align: center;
-    font-family: Helvetica;
+  background-color: #2B2B2B;
+  padding: 70px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.ctaTitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.ctaDescription {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.ctaButton {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #EB0A1E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #2B2B2B;
+}
+
+/* Media Queries */
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .ctaSection {
+    padding: 60px;
   }
-  
+
   .ctaTitle {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: white;
+    font-size: 32px;
   }
-  
+
   .ctaDescription {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: white;
-  }
-  
-  .ctaButton {
-    padding: 15px 30px;
     font-size: 18px;
-    background-color: #EB0A1E;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
   }
-  
-  .ctaButton:hover {
-    background-color: #2B2B2B;
+
+  .ctaButton {
+    padding: 12px 25px;
+    font-size: 16px;
   }
-  
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .ctaSection {
+    padding: 50px;
+  }
+
+  .ctaTitle {
+    font-size: 28px;
+  }
+
+  .ctaDescription {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+/* For extra-small devices */
+@media (max-width: 480px) {
+  .ctaSection {
+    padding: 30px;
+  }
+
+  .ctaTitle {
+    font-size: 22px;
+  }
+
+  .ctaDescription {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .ctaButton {
+    border-radius: 5%;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

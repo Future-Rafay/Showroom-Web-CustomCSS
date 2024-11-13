@@ -40,4 +40,73 @@
     background-color: #2B2B2B;
 
   }
+
+/* Media Queries */
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .heroBanner {
+    height: 80vh;
+    align-items: end; 
+  }
+
+  .heroTitle {
+    font-size: 42px;
+  }
+
+  .heroDescription {
+    font-size: 18px;
+  }
+
+  .ctaButton {
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .heroBanner {
+    height: 80vh;
+    align-items: end;
+  }
+
+  .heroTitle {
+    font-size: 36px;
+  }
+
+  .heroDescription {
+    font-size: 16px;
+  }
+
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-bottom: 80px;
+  }
+}
+
+/* For extra-small devices */
+@media (max-width: 480px) {
+  .heroBanner {
+    height: 80vh;
+    align-items: end;
+  }
+
+  .heroTitle {
+    font-size: 28px;
+  }
+
+  .heroDescription {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .ctaButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-bottom: 100px;
+  }
+}
   

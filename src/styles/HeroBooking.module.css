@@ -21,3 +21,82 @@
   font-size: 20px;
   margin-bottom: 30px;
 }
+/* Large Desktop Screens */
+@media (min-width: 1200px) {
+  .heroBanner {
+    height: 70vh;
+  }
+  .heroTitle {
+    font-size: 56px;
+  }
+  .heroDescription {
+    font-size: 24px;
+  }
+}
+
+/* Medium to Large Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heroBanner {
+    height: 65vh;
+  }
+  .heroTitle {
+    font-size: 52px;
+  }
+  .heroDescription {
+    font-size: 22px;
+  }
+}
+
+/* Tablets and Medium Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .heroBanner {
+    height: 55vh;
+  }
+  .heroTitle {
+    font-size: 44px;
+  }
+  .heroDescription {
+    font-size: 20px;
+  }
+}
+
+/* Small Tablets and Large Mobile Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .heroBanner {
+    height: 50vh;
+  }
+  .heroTitle {
+    font-size: 36px;
+  }
+  .heroDescription {
+    font-size: 18px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 575px) {
+  .heroBanner {
+    height: 45vh;
+    padding: 15px;
+  }
+  .heroTitle {
+    font-size: 28px;
+  }
+  .heroDescription {
+    font-size: 16px;
+  }
+}
+
+/* Very Small Mobile Devices */
+@media (max-width: 320px) {
+  .heroBanner {
+    height: 40vh;
+    padding: 10px;
+  }
+  .heroTitle {
+    font-size: 24px;
+  }
+  .heroDescription {
+    font-size: 14px;
+  }
+}

@@ -49,6 +49,7 @@
   font-size: 48px;
   margin-bottom: 20px;
 }
+
 .hero p {
   font-size: 24px;
   margin-bottom: 30px;
@@ -106,4 +107,157 @@
 
 .submitButton:hover {
   background-color: lightgreen;
+}
+
+/* Large Desktop Screens */
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 56px;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .bookingInfo {
+    padding: 120px 60px;
+  }
+  .bookingInfo h2 {
+    font-size: 52px;
+  }
+  .bookingInfo p {
+    font-size: 20px;
+  }
+}
+
+/* Medium to Large Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero h1 {
+    font-size: 52px;
+  }
+  .hero p {
+    font-size: 26px;
+  }
+  .bookingInfo h2 {
+    font-size: 48px;
+  }
+  .bookingInfo p {
+    font-size: 19px;
+  }
+}
+
+/* Tablets and Medium Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+  .hero p {
+    font-size: 22px;
+  }
+  .bookingInfo {
+    padding: 80px 30px;
+  }
+  .bookingInfo h2 {
+    font-size: 40px;
+  }
+  .bookingForm h2 {
+    font-size: 32px;
+  }
+  .formGroup label {
+    font-size: 16px;
+  }
+}
+
+/* Small Tablets and Large Mobile Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .hero {
+    height: 50vh;
+    padding: 80px 15px;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .bookingInfo {
+    padding: 60px 20px;
+  }
+  .bookingInfo h2 {
+    font-size: 34px;
+  }
+  .form {
+    gap: 15px;
+  }
+  .formGroup label {
+    font-size: 14px;
+  }
+  .submitButton {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 575px) {
+  .hero {
+    height: 40vh;
+    padding: 60px 10px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .bookingInfo {
+    padding: 50px 15px;
+  }
+  .bookingInfo h2 {
+    font-size: 28px;
+  }
+  .bookingInfo p {
+    font-size: 16px;
+  }
+  .bookingForm h2 {
+    font-size: 24px;
+  }
+  .formGroup label {
+    font-size: 14px;
+  }
+  .formGroup input,
+  .formGroup select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .submitButton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Very Small Mobile Devices */
+@media (max-width: 320px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .bookingInfo h2 {
+    font-size: 24px;
+  }
+  .form {
+    gap: 10px;
+  }
+  .formGroup label {
+    font-size: 12px;
+  }
+  .formGroup input,
+  .formGroup select {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .submitButton {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
