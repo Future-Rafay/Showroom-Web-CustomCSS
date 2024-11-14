@@ -39,7 +39,7 @@
   background-image: url("/images/hero/HeroBooking3.jpg");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 70vh;
   color: white;
   padding: 100px 20px;
   text-align: center;
@@ -120,6 +120,9 @@
   .bookingInfo {
     padding: 120px 60px;
   }
+  .bookingInfo p{
+    padding: 20px;
+  }
   .bookingInfo h2 {
     font-size: 52px;
   }
@@ -139,6 +142,9 @@
   .bookingInfo h2 {
     font-size: 48px;
   }
+  .bookingInfo p{
+    padding: 20px;
+  }
   .bookingInfo p {
     font-size: 19px;
   }
@@ -154,6 +160,9 @@
   }
   .bookingInfo {
     padding: 80px 30px;
+  }
+  .bookingInfo p{
+    padding: 20px;
   }
   .bookingInfo h2 {
     font-size: 40px;
@@ -180,6 +189,12 @@
   }
   .bookingInfo {
     padding: 60px 20px;
+  }
+  .bookingInfo p{
+    padding: 20px;
+  }
+  .bookingSteps{
+    margin-left: 20px;
   }
   .bookingInfo h2 {
     font-size: 34px;
@@ -213,8 +228,12 @@
   }
   .bookingInfo h2 {
     font-size: 28px;
+  } .bookingSteps{
+    margin-left: 20px;
   }
   .bookingInfo p {
+    text-align: start;
+    padding: 20px;
     font-size: 16px;
   }
   .bookingForm h2 {

@@ -64,13 +64,12 @@
 /* For extra-small devices */
 @media (max-width: 480px) {
   .heroBanner {
-    display: block;
     height: 60vh; /* Reduce height even more */
     padding: 0 15px; /* Padding for mobile screens */
   }
 
   .heroTitle {
-    margin-top: 0px;
+    margin-top: 100px;
     font-size: 28px; /* Even smaller font for small screens */
   }
 

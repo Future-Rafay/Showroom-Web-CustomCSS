@@ -18,21 +18,10 @@
   margin-bottom: 20px;
 }
 .heroDescription {
-  font-size: 20px;
+  font-size: 20px;  
   margin-bottom: 30px;
 }
 /* Large Desktop Screens */
-@media (min-width: 1200px) {
-  .heroBanner {
-    height: 70vh;
-  }
-  .heroTitle {
-    font-size: 56px;
-  }
-  .heroDescription {
-    font-size: 24px;
-  }
-}
 
 /* Medium to Large Desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -52,11 +41,14 @@
   .heroBanner {
     height: 55vh;
   }
+  .heroContent{
+    text-align: center;
+  }
   .heroTitle {
-    font-size: 44px;
+    font-size: 28px;
   }
   .heroDescription {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -64,6 +56,9 @@
 @media (min-width: 576px) and (max-width: 767px) {
   .heroBanner {
     height: 50vh;
+  }
+  .heroContent{
+    text-align: center;
   }
   .heroTitle {
     font-size: 36px;
