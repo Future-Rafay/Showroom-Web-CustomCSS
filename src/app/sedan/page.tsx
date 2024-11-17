@@ -8,7 +8,7 @@ const SedanPage = () => {
       name: "Toyota Camry",
       description: "A luxury sedan known for its comfort and reliability.",
       price: "$35,000",
-      image: "/images/sedan/camry2.png",
+      image: "/images/sedan/Camry.png",
     },
     {
       name: "Toyota Prius",
@@ -29,7 +29,7 @@ const SedanPage = () => {
       description:
         "Elegant and spacious, perfect for both city and highway driving.",
       price: "$36,500",
-      image: "/images/sedan/camry.png",
+      image: "/images/sedan/camry2.png",
     },
     {
       name: "Toyota Prius",
