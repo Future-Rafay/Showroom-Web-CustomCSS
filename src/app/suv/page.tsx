@@ -49,7 +49,7 @@ const SUVPage = () => {
       description:
         "A versatile SUV ideal for families, combining comfort with practicality.",
       price: "$40,000",
-      image: "/images/suv/innova.jpg",
+      image: "/images/suv/innova.png",
     },
     {
       name: "Toyota RAV4",
